@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfólio de Gerson Bruno, desenvolvedor front-end especializado em interfaces modernas e responsivas.">
+    <title>Gerson Bruno - Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <script src="src/js/script.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                &lt;Gerson<span class="logo-bold"> Bruno</span> /&gt;
+            </div>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox" title="Alternar Modo Escuro">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider round"></div>
+                    </label>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <!-- Left Column -->
+                <div class="hero-left reveal">
+                    <div class="hero-intro">
+                        <h1>Olá, eu sou<br><span class="highlight">Gerson Bruno.</span></h1>
+
+                        <!-- Decorative Arrow from Image to Name -->
+                        <div class="decorative-arrow">
+                            <svg width="220" height="150" viewBox="0 0 220 150" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 210 100 C 160 -20, 80 200, 25 50" stroke-width="2" stroke-dasharray="6 8"
+                                    fill="none" class="dashed-path arrow-color" />
+                                <path d="M 20 60 L 25 50 L 32 55" stroke-width="2" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round" class="arrow-color" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="experience-block">
+                        <div class="exp-number">01</div>
+                        <div class="exp-text">ANO<br>EXPERIÊNCIA</div>
+                    </div>
+                    -->
+
+                    <div class="social-links">
+                        <a href="https://github.com/gerson-bruno" aria-label="GitHub" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/gerson-bruno-baptista/" aria-label="LinkedIn"
+                            target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:gersonbrunobaptista@gmail.com" aria-label="E-mail"><i
+                                class="fas fa-envelope"></i></a>
+                        <a href="https://wa.link/00ywzj" aria-label="WhatsApp" target="_blank"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Center Column -->
+                <div class="hero-center reveal delay-1">
+                    <div class="image-wrapper">
+                        <div class="image-circle-frame"></div>
+                        <!-- The image will be dynamically replaced or set via CSS if we have an asset -->
+                        <img src="src/img/portrait.png" alt="Gerson Bruno Portrait" class="portrait-img">
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="hero-right reveal delay-2">
+                    <div class="quote-block">
+                        <p>Criando interfaces modernas que aproximam pessoas e ideias.</p>
+                    </div>
+
+                    <div class="cv-download-block">
+                        <a href="#" download class="btn btn-primary btn-download">
+                            Download CV <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+
+                    <div class="signature">
+                        Front-end <br><span class="signature-sub">Developer.</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Additional Landing Page Sections -->
+            <section id="about" class="landing-section reveal">
+                <h2 class="section-title">Sobre</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="src/img/portrait-about.jpg" alt="Retrato Gerson Bruno">
+                    </div>
+                    <div class="about-text">
+                        <p>Apaixonado por tecnologia e criação de interfaces.
+                            Estudante de Análise e Desenvolvimento de Sistemas, em transição de carreira.
+                            Transformo ideias em soluções digitais que aproximam pessoas e facilitam tarefas, sempre com
+                            foco em design limpo, funcional e acessível.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="landing-section reveal">
+                <h2 class="section-title">Habilidades</h2>
+                <div class="section-content">
+                    <p>Desenvolvedor front-end com atenção a interfaces limpas, código organizado e experiência real de
+                        uso.
+                        Prezo por usabilidade, responsividade e manutenção, com boa comunicação e facilidade para
+                        trabalhar em equipe. Sempre explorando novas tecnologias para evoluir como desenvolvedor.
+                    </p>
+
+                    <div class="skills-icons">
+                        <i class="fab fa-html5 skill-icon html-icon" title="HTML5"></i>
+                        <i class="fab fa-css3-alt skill-icon css-icon" title="CSS3"></i>
+                        <i class="fab fa-js skill-icon js-icon" title="JavaScript"></i>
+                        <div class="ts-icon" title="TypeScript">TS</div>
+                        <i class="fab fa-react skill-icon react-icon" title="React"></i>
+                        <i class="fab fa-node-js skill-icon node-icon" title="Node.js"></i>
+                        <i class="fab fa-git-alt skill-icon git-icon" title="Git"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="landing-section reveal">
+                <h2 class="section-title">Projetos</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <img src="src/img/work1.jpg" alt="ReabilitaSys" class="project-img" loading="lazy">
+                        <div class="project-info">
+                            <p class="project-desc project-desc-sm">ReabilitaSys - Gestão para
+                                fisioterapia:</p>
+                            <p class="project-desc">Sistema web completo para gestão de clínicas de fisioterapia.
+                                Permite controle financeiro, agendamento de pacientes, prontuários, evoluções, alta e
+                                gerenciamento de pacientes ativos e inativos.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Vite</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://gerson-bruno.github.io/ReabilitaSys/" class="project-link"
+                                    target="_blank" rel="noopener noreferrer">Ver projeto
+                                    <i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/gerson-bruno/ReabilitaSys" class="project-link"
+                                    target="_blank" rel="noopener noreferrer">Ver código
+                                    <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <img src="src/img/work2.jpg" alt="GersonBot" class="project-img" loading="lazy">
+                        <div class="project-info">
+                            <p class="project-desc project-desc-sm">Chatbot:</p>
+                            <p class="project-desc">GersonBot é um chatbot pessoal desenvolvido para gerar respostas
+                                inteligentes, utilizando a API Gemini do Google.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">API de IA</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://gersonbot.onrender.com/" class="project-link" target="_blank"
+                                    rel="noopener noreferrer">Ver projeto
+                                    <i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/gerson-bruno/gersonbot" class="project-link" target="_blank"
+                                    rel="noopener noreferrer">Ver código <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <img src="src/img/work3.jpg" alt="Todolist" class="project-img" loading="lazy">
+                        <div class="project-info">
+                            <p class="project-desc">Organizador de tarefas:</p>
+                            <p class="project-desc">Aplicativo de gerenciamento web, ideal para organizar atividades do
+                                dia a dia, estudos ou projetos pessoais.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">CRUD</span>
+                                <span class="tech-tag">localStorage</span>
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://gerson-bruno.github.io/estudos/javascript/estudos-autorais/organizador-de-tarefas/"
+                                    class="project-link" target="_blank" rel="noopener noreferrer">Ver projeto
+                                    <i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/gerson-bruno/estudos/tree/main/javascript/estudos-autorais/organizador-de-tarefas"
+                                    class="project-link" target="_blank" rel="noopener noreferrer">Ver código <i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <img src="src/img/work4.jpg" alt="Gerador de QR Code" class="project-img" loading="lazy">
+                        <div class="project-info">
+                            <p class="project-desc">Gerador de QR Code:</p>
+                            <p class="project-desc">Gerador de QR Code, ideal para gerar QR Codes para links, textos,
+                                e-mails, telefones e muito mais.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">API Externa</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://gerson-bruno.github.io/estudos/javascript/curso-hora-de-codar/projetos/gerador-qr-code/"
+                                    class="project-link" target="_blank" rel="noopener noreferrer">Ver projeto
+                                    <i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/gerson-bruno/estudos/tree/main/javascript/curso-hora-de-codar/projetos/gerador-qr-code"
+                                    class="project-link" target="_blank" rel="noopener noreferrer">Ver código <i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="project-card">
+                        <img src="src/img/work5.jpg" alt="Landing Page: Doe Sangue, salve vidas." class="project-img"
+                            loading="lazy">
+                        <div class="project-info">
+                            <p class="project-desc">Landing Page: Doe Sangue. Salve Vidas.</p>
+                            <p class="project-desc">Landing page informativa sobre doação de sangue com verificação
+                                dinâmica de compatibilidade sanguínea.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://gerson-bruno.github.io/estudos/javascript/estudos-autorais/doe-sangue-salve-vidas/"
+                                    class="project-link" target="_blank" rel="noopener noreferrer">Ver projeto
+                                    <i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/gerson-bruno/estudos/tree/main/javascript/estudos-autorais/doe-sangue-salve-vidas"
+                                    class="project-link" target="_blank" rel="noopener noreferrer">Ver código <i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 6 -->
+                    <div class="project-card">
+                        <img src="src/img/work6.jpg" alt="Formulário de Cadastro" class="project-img" loading="lazy">
+                        <div class="project-info">
+                            <p class="project-desc">Formulário de cadastro:</p>
+                            <p class="project-desc">Formulário de cadastro simples (apenas front-end), um modelo ideal
+                                para cadastrar usuários em um sistema.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://gerson-bruno.github.io/estudos/html-css/estudos-autorais/formulario-de-cadastro/"
+                                    class="project-link" target="_blank" rel="noopener noreferrer">Ver projeto
+                                    <i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/gerson-bruno/estudos/tree/main/html-css/estudos-autorais/formulario-de-cadastro"
+                                    class="project-link" target="_blank" rel="noopener noreferrer">Ver código <i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="landing-section reveal">
+                <h2 class="section-title">Contato</h2>
+                <div class="section-content">
+                    <div class="contact-links-list">
+                        <a href="https://wa.link/00ywzj" target="_blank" class="contact-link" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp"></i>+55 16 99235-4138
+                        </a>
+                        <a href="mailto:gersonbrunobaptista@gmail.com" class="contact-link" rel="noopener noreferrer">
+                            <i class="fas fa-envelope"></i>gersonbrunobaptista@gmail.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/gerson-bruno-baptista/" target="_blank"
+                            class="contact-link" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>LinkedIn
+                        </a>
+                        <a href="https://github.com/gerson-bruno" target="_blank" class="contact-link"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer reveal">
+            <div class="footer-content">
+                <div class="logo">
+                    <span class="logo-bold">Gerson </span>Bruno.
+                </div>
+                <p>&copy; <span id="current-year"></span> Gerson Bruno. Todos os direitos reservados.</p>
+                <div class="social-links footer-socials">
+                    <a href="https://github.com/gerson-bruno" aria-label="GitHub" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/gerson-bruno-baptista/" aria-label="LinkedIn" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:gersonbrunobaptista@gmail.com" aria-label="E-mail" rel="noopener noreferrer"><i
+                            class="fas fa-envelope"></i></a>
+                    <a href="https://wa.link/00ywzj" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
