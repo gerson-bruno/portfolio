@@ -587,6 +587,10 @@ nav {
     color: #F05032;
 }
 
+.vue-icon:hover {
+    color: #3FB27F; /* verde Vue */
+}
+
 .ts-icon {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
