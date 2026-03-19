@@ -13,7 +13,7 @@ A proposta do site é mostrar na prática meu trabalho com **HTML, CSS e JavaScr
 
 ## 🌐 Acesse o projeto
 
-🔗 **[Clique aqui para ver o site](http://gerson-bruno.github.io/portifolio/)**
+🔗 **[Clique aqui para ver o site](http://gerson-bruno.github.io/portfolio/)**
 
 ---
 
