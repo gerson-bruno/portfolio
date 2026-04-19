@@ -830,6 +830,10 @@ nav {
         gap: 30px;
     }
 
+    .about-text {
+        text-align: left;
+    }
+
     .about-image {
         flex: 0 0 auto;
         width: 250px;
@@ -877,14 +881,14 @@ nav {
     }
 }
 
-@media (max-width: 1100px) {
-    .about-text {
-        text-align: left;
-    }
-}
+
 @media (max-width: 600px) {
-    html {
+    html, body {
         overflow-x: hidden;
+        overflow-y: auto; 
+        position: relative;
+        width: 100%;
+        -webkit-overflow-scrolling: touch; 
     }
 
     header::before {
@@ -892,14 +896,38 @@ nav {
         right: 0;
     }
 
+    
+    nav {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: var(--white);
+        flex-direction: column;
+        padding: 30px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        transform: translateY(-150%);
+        transition: transform 0.3s ease, background-color 0.4s ease;
+        z-index: 100;
+        pointer-events: none; 
+        visibility: hidden;
+    }
+
+    nav.show {
+        transform: translateY(0);
+        pointer-events: auto; 
+        visibility: visible;
+    }
+
+    
+    .reveal {
+        transform: translateY(15px); 
+    }
+
     .hero {
         grid-template-columns: 1fr;
         min-height: auto;
         padding: 40px 0;
-    }
-
-     .reveal {
-        transform: translateY(15px); 
     }
 
     .image-wrapper {
@@ -915,7 +943,6 @@ nav {
         grid-template-columns: 1fr;
         gap: 20px;
         width: 100%;
-        overflow: hidden;
     }
 
     .project-card {
@@ -936,6 +963,6 @@ nav {
 
     .container {
         padding: 0 4%;
-        overflow-x: hidden;
+        overflow-x: hidden; 
     }
 }
