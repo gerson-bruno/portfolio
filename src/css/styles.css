@@ -1,4 +1,4 @@
-/* 1. Reset / Base */
+/* 1. Reset */
 * {
     margin: 0;
     padding: 0;
@@ -23,25 +23,18 @@ body {
 :root {
     --bg-color: #FDFAF2;
     --text-primary: #1C4845;
-    /* Dark greenish-teal */
     --accent-orange: #F2A93B;
     --text-secondary: #3D6B68;
     --white: #faf8f4;
-
     --font-sans: 'Outfit', sans-serif;
     --font-script: 'Caveat', cursive;
 }
 
 [data-theme="dark"] {
     --bg-color: #18191F;
-    /* Tom escuro levemente esverdeado/azulado */
     --text-primary: #F0F4F4;
-    /* Quase branco com tom verde */
     --text-secondary: #98aeaf;
-    /* Cinza médio esverdeado */
     --white: #191923;
-    /* Usado para o fundo dos cards no modo dark */
-    /* Mantem laranja o mesmo --accent-orange */
 }
 
 /* 3. Tipografia  */
@@ -143,7 +136,7 @@ body {
     margin-left: 10px;
 }
 
-/* Theme Switcher (Apple Style) */
+/* Theme Switcher */
 .theme-switch-wrapper {
     display: flex;
     align-items: center;
@@ -525,7 +518,6 @@ nav {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     object-fit: cover;
     transition: transform 0.3s ease;
 }
@@ -588,7 +580,7 @@ nav {
 }
 
 .vue-icon:hover {
-    color: #3FB27F; /* verde Vue */
+    color: #3FB27F; 
 }
 
 .ts-icon {
