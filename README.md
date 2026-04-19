@@ -1,19 +1,18 @@
-# Portfólio
-![HTML](https://img.shields.io/badge/HTML-5-orange)
-![CSS](https://img.shields.io/badge/CSS-3-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![Status](https://img.shields.io/badge/status-online-success)
-![Deploy](https://img.shields.io/badge/deploy-github%20pages-blue)
+# 🌐 Portfólio — Gerson Bruno
 
-Este é o meu portfólio pessoal, criado para apresentar alguns dos projetos que desenvolvi e as tecnologias que utilizo no desenvolvimento front-end.
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=flat-square&logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/status-online-success?style=flat-square)
+![Deploy](https://img.shields.io/badge/deploy-vercel-black?style=flat-square&logo=vercel&logoColor=white)
 
-A proposta do site é mostrar na prática meu trabalho com **HTML, CSS e JavaScript**, focando em interfaces modernas, responsivas e bem organizadas.
+Portfólio pessoal desenvolvido para apresentar projetos, habilidades e experiência como desenvolvedor Front-End. O site reúne trabalhos que vão desde aplicações com React e TypeScript até integrações com APIs externas, refletindo uma stack moderna e foco em experiência do usuário.
 
 ---
 
-## 🌐 Acesse o projeto
+## 🔗 Acesse o site
 
-🔗 **[Clique aqui para ver o site](http://gerson-bruno.github.io/portfolio/)**
+**[gersonbruno.dev](https://www.gersonbruno.dev/)**
 
 ---
 
@@ -23,29 +22,51 @@ A proposta do site é mostrar na prática meu trabalho com **HTML, CSS e JavaScr
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Tecnologias
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- Font Awesome  
-- Google Fonts  
+| Tecnologia | Uso |
+|---|---|
+| HTML5 | Estrutura semântica e acessível |
+| CSS3 | Estilização, responsividade e animações |
+| JavaScript (ES6+) | Interatividade e lógica do site |
+| Font Awesome | Ícones |
+| Google Fonts | Tipografia (Outfit + Caveat) |
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- Layout totalmente **responsivo**
-- **Modo claro e escuro** com persistência no navegador
-- **Animações de entrada** ao rolar a página
-- **Menu mobile**
-- Seção de **projetos com links para demonstração e código**
+- 🌓 **Modo claro e escuro** com persistência via `localStorage`
+- 📱 **Layout responsivo** para mobile, tablet e desktop
+- ✨ **Animações de entrada** com `IntersectionObserver`
+- 🍔 **Menu mobile** com toggle animado
+- 🗂 **Seção de projetos** com links para demo e código-fonte
 
 ---
 
-## 👨‍💻 Sobre
+## 📁 Estrutura do projeto
+portfolio/
 
-Este portfólio foi criado para reunir meus projetos e facilitar o compartilhamento do meu trabalho como desenvolvedor front-end.
+├── index.html
 
-A ideia é continuar evoluindo o projeto, adicionando novos trabalhos e melhorias conforme avanço nos estudos e na prática.
+└── src/
 
+├── css/
+
+│   └── styles.css
+
+├── js/
+
+│   └── script.js
+
+└── img/
+
+---
+
+## 👨‍💻 Sobre o autor
+
+Desenvolvedor Front-End com background na área da saúde (fisioterapia), o que traz um olhar analítico e centrado no usuário para cada projeto. 
+Atualmente cursando Análise e Desenvolvimento de Sistemas pela UNINTER e participando da Residência em TIC-12 (Trilha Full Stack) pela UFC.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gerson%20Bruno-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/gerson-bruno-baptista/)
+[![GitHub](https://img.shields.io/badge/GitHub-gerson--bruno-black?style=flat-square&logo=github)](https://github.com/gerson-bruno)
