@@ -745,7 +745,7 @@ nav {
 }
 
 .decorative-arrow:hover .dashed-path {
-    animation: dashAnim 0.8s linear infinite reverse;
+    animation: dashAnim 0.8s linear infinite;
 }
 
 .arrow-color {
