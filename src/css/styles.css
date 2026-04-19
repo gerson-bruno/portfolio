@@ -961,4 +961,8 @@ nav {
         padding: 0 4%;
         overflow-x: hidden; 
     }
+
+    .btn-download {
+        margin-top: 20px;
+    }
 }
