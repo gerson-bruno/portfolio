@@ -876,14 +876,28 @@ nav {
     }
 }
 
+@media (max-width: 1100px) {
+    .about-text {
+        text-align: left;
+    }
+}
 @media (max-width: 600px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    header::before {
+        left: 0;
+        right: 0;
+    }
+
     .hero {
         grid-template-columns: 1fr;
     }
 
     .image-wrapper {
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: 280px;
     }
 
     .hero-intro h1 {
@@ -892,11 +906,29 @@ nav {
 
     .projects-grid {
         grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: 100%;
     }
 
     .footer-content {
         flex-direction: column;
         gap: 20px;
         text-align: center;
+    }
+
+    .landing-section {
+        padding: 60px 0;
+        min-height: auto;
+    }
+
+    .container {
+        padding: 0 4%;
+        overflow-x: hidden;
     }
 }
