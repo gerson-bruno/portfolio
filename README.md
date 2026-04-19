@@ -48,17 +48,11 @@ Portfólio pessoal desenvolvido para apresentar projetos, habilidades e experiê
 portfolio/
 
 ├── index.html
-
 └── src/
-
 ├── css/
-
 │   └── styles.css
-
 ├── js/
-
 │   └── script.js
-
 └── img/
 
 ---
