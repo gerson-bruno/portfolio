@@ -9,13 +9,14 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
+    overflow-x: hidden;
 }
 
 body {
     background-color: var(--bg-color);
     color: var(--text-primary);
     min-height: 100vh;
-    overflow-x: hidden;
+    
     transition: background-color 0.4s ease, color 0.4s ease;
 }
 
@@ -893,6 +894,12 @@ nav {
 
     .hero {
         grid-template-columns: 1fr;
+        min-height: auto;
+        padding: 40px 0;
+    }
+
+     .reveal {
+        transform: translateY(15px); 
     }
 
     .image-wrapper {
