@@ -16,7 +16,6 @@ body {
     background-color: var(--bg-color);
     color: var(--text-primary);
     min-height: 100vh;
-    
     transition: background-color 0.4s ease, color 0.4s ease;
 }
 
@@ -884,11 +883,7 @@ nav {
 
 @media (max-width: 600px) {
     html, body {
-        overflow-x: hidden;
-        overflow-y: auto; 
-        position: relative;
         width: 100%;
-        -webkit-overflow-scrolling: touch; 
     }
 
     header::before {
@@ -909,19 +904,20 @@ nav {
         transform: translateY(-150%);
         transition: transform 0.3s ease, background-color 0.4s ease;
         z-index: 100;
-        pointer-events: none; 
-        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
     }
 
     nav.show {
         transform: translateY(0);
-        pointer-events: auto; 
-        visibility: visible;
+        opacity: 1;
+        pointer-events: auto;
     }
 
     
     .reveal {
-        transform: translateY(15px); 
+        opacity: 1;
+        transform: none;
     }
 
     .hero {
