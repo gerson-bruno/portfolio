@@ -733,7 +733,7 @@ nav {
     top: 80px;
     left: 0;
     width: 100%;
-    background: rgba(17, 17, 17, 0.75);
+    background: #12141a6c;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 12px;
@@ -776,7 +776,7 @@ nav {
     top: 80px;
     left: 0;
     width: 100%;
-    background: rgba(17, 17, 17, 0.75);
+    background: #12141a6c;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 12px;
