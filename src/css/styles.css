@@ -566,9 +566,9 @@ nav {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.875rem;
-  width: 100%;
+  width: 70%;
   max-width: 68.75rem;
   margin: 2.5rem auto 0;
 }
